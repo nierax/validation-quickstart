@@ -26,6 +26,11 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+			<dependency>
+				<groupId>de.lexasoft</groupId>
+				<artifactId>ls-commons</artifactId>
+				<version>0.1.4-02</version>
+			</dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -47,6 +52,10 @@
             <artifactId>quarkus-junit5</artifactId>
             <scope>test</scope>
         </dependency>
+			<dependency>
+				<groupId>de.lexasoft</groupId>
+				<artifactId>ls-commons</artifactId>
+			</dependency>
     </dependencies>
 
     <build>
